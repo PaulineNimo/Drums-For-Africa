@@ -68,7 +68,7 @@
 /******************** START ********************/
 
 .tabs.purple {
-  width: 400px;
+  width: 350px;
   float: left;
   list-style: none;
   position: relative;
@@ -88,7 +88,7 @@
 .tabs.purple label {
   display: block;
   padding: 14px 31px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
   cursor: pointer;
   position: relative;

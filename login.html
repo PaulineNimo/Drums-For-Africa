@@ -35,9 +35,21 @@ label{
 .checkbox{
   float: left;
 }
-.navbar{
+.navbar-custom .navbar-collapse{
+    background-color:white;
 
 }
+ 
+@media (min-width:767px){
+  .navbar-custom .navbar-collapse{
+      background-color:transparent;
+  }
+
+}
+body{
+  width: 100%;
+}
+
 </style>
 <script type="text/javascript">
 
@@ -45,7 +57,7 @@ label{
 </script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="background-color: #e8e8ee;">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="background-color: #e8e8ee;width: 100%;">
 <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="background-color: white;">
         <div class="container">
@@ -124,7 +136,7 @@ label{
                 <input type="submit" value="REGISTER" style="width: 100%">
                 <div class="btn">
                 <div style="float: left;">
-                <input type="checkbox" name="terms" required=""><a href = "TAC.pdf" style="color: #652d90;"> I agree with the Terms and Conditions </a>
+                <input type="checkbox" name="terms" required=""><a href = "terms-and-conditions.html" style="color: #652d90;"> I agree with the Terms and Conditions </a>
                 </div>
                 </div>
               </form>
